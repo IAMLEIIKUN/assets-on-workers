@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 })
 
 const ORIGIN_URL = `https://softakun.shop`
-const BUCKET_URL = `https://softimgfile.s3.amazonaws.com`
+const BUCKET_URL = `https://softimgfile.s3-us-east-1.amazonaws.com`
 
 async function serveAsset(event) {
   const url = new URL(event.request.url)
