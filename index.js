@@ -2,8 +2,8 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event))
 })
 
-const ORIGIN_URL = `https://www.example.com`
-const BUCKET_URL = `https://example.s3.amazonaws.com`
+const ORIGIN_URL = `https://softakun.shop`
+const BUCKET_URL = `https://softimgfile.s3.amazonaws.com`
 
 async function serveAsset(event) {
   const url = new URL(event.request.url)
